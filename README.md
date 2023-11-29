@@ -6,13 +6,13 @@ Make your GitHub history go back as far as you want.
 
 # First step
 
-[Crie um novo repositório](https://github.com/new) with the date you wish to travel back in time. Example `2017`
+[Create a new repository](https://github.com/new) with the date you wish to travel back in time. Example `2017`
 
 ![image](IMG/date-commit.png)
 
 # Second step
 
-[Gere um token de acesso pessoal](https://github.com/settings/tokens/new) GitHub and copy it. Example below.
+[Generate a personal access token](https://github.com/settings/tokens/new) GitHub and copy it. Example below.
 
 ![image](IMG/psw-token-1.png)
 
@@ -22,7 +22,7 @@ Make your GitHub history go back as far as you want.
 
 # Third step
 
-If you want to generate just one commit, run the script below
+If you want to generate several, run the script below
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/TI-ERX/script-history-back/master/index.sh)"
@@ -30,7 +30,7 @@ sh -c "$(curl -fsSL https://raw.github.com/TI-ERX/script-history-back/master/ind
 
 <br>
 
-Se deseja gerar apenas um commit, execute o script abaixo
+If you want to generate just one commit, run the script below
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/TI-ERX/script-only-commit/master/index.sh)"
