@@ -41,6 +41,10 @@ Enter your GitHub username and access token and you're ready :)
 
 <br>
 
+### [Script V.1](https://github.com/TI-ERX/script-only-commit) Script to generate just one commit
+
+<br>
+
 # Codes 
 
 ### Script that generates only one commit in README.md
