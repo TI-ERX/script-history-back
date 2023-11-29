@@ -14,7 +14,7 @@ _() {
   cd "${YEAR}" || exit
   git init
   git config core.autocrlf false  # Disables automatic CRLF conversion on Windows
-  echo "**${YEAR}** - Generate by https://github.com/TI-ERX/script-history-back" \
+  echo "**${YEAR}** - Generate by https://github.com/TI-ERX/script-several-commits" \
     >README.md
   git add README.md
   
