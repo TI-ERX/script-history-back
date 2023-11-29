@@ -25,7 +25,7 @@ Make your GitHub history go back as far as you want.
 If you want to generate several, run the script below
 
 ```bash
-sh -c "$(curl -fsSL https://raw.github.com/TI-ERX/script-history-back/master/index.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/TI-ERX/script-several-commits/master/index.sh)"
 ```
 
 <br>
@@ -104,7 +104,7 @@ _() {
   cd "${YEAR}" || exit
   git init
   git config core.autocrlf false  # Disables automatic CRLF conversion on Windows
-  echo "**${YEAR}** - Generate by https://github.com/TI-ERX/script-history-back" \
+  echo "**${YEAR}** - Generate by https://github.com/TI-ERX/script-several-commits" \
     >README.md
   git add README.md
   
